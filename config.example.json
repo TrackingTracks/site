@@ -1,0 +1,18 @@
+{
+    "services" : {
+        "soundcloud" : {
+            "module" : "SoundCloudService",
+            "config" : {
+                "apiKey" : "{{Soundcloud API Key}}"
+            }
+        },
+        "spotify" : {
+            "module" : "SpotifyService",
+            "config" : {}
+        },
+        "deezer" : {
+            "module" : "DeezerService",
+            "config" : {}
+        }
+    }
+}

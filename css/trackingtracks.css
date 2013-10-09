@@ -1,0 +1,21 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  color: #10272e; }
+
+.search-services {
+  display: inline-block;
+  list-style: none;
+  padding-left: 1em; }
+  .search-services li {
+    display: inline-block;
+    padding-right: 1em; }
+
+.service-results {
+  list-style: none; }
+  .service-results .glyphicon {
+    margin-right: 0.5em; }

@@ -1,0 +1,15 @@
+<div class="col-md-6">
+    <div class="page-header">
+        <h2>{{service.title}}</h2>
+    </div>
+    {{^results}}
+        <p>
+            No results :(
+        </p>
+    {{/results}}
+    <ul class="service-results">
+        {{#results}}
+        <li><a href="{{link}}"><span class="glyphicon glyphicon-play"></span> {{title}}</a></li>
+        {{/results}}
+    </ul>
+</div>

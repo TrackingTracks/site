@@ -1,0 +1,6 @@
+.DS_Store
+config.json
+npm-debug.log
+.idea/
+node_modules/
+.sass-cache/
